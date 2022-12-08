@@ -1,13 +1,22 @@
-# Sample Hardhat Project
+# Ownership-Yul
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+The yul implementation of contracts ownership
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+# Build and Test
+
 ```
+yarn
+```
+
+# Deployemnent
+```
+yarn hardhat deploy --network <network>
+```
+
+# Test
+```
+yarn hardhat test
+```
+
+
