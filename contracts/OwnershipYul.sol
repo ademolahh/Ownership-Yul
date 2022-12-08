@@ -28,7 +28,7 @@ abstract contract OwnershipYul {
         }
     }
 
-    /// @notice this function should be called in the constructor of the parent contract
+    /// @notice this function should be called in the constructor of the child's contract
     function initOwner() internal virtual {
         setOwner(msg.sender);
     }
